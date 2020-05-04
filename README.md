@@ -1,11 +1,16 @@
 JumpingSumo Control Library for Python
 
+This is a fork of the repository:
+https://github.com/haraisao/JumpingSumo-Python
 
-1. About this...
+So far, I have focused on porting the code to python3
+
+
+1. About this project:
 JumpingSumo is a small mobile robot produced by Parrot(http://www.parrot.com).
 The SDK of this robot is already released on Github.com(https://github.com/Parrot-Developers).
 
-This SDK is implemented for C-Language only, so I tried to ported it to Python.
+This is a Python port of the Parrot SDK.
 
 2. Quick start
 
@@ -32,3 +37,5 @@ This SDK is implemented for C-Language only, so I tried to ported it to Python.
      - cnt.jump(param)             ; param = [0:1]
      - cnt.posture(param)          ; param = [0:2]
   
+Acknowledgements
+This repository was originally cloned from https://github.com/haraisao/JumpingSumo-Python
